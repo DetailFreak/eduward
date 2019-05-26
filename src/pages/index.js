@@ -24,10 +24,10 @@ const IndexPage = () => (
      
       <CardContent>
       <CardColumn style={{ borderRight: '1px solid #e4e4e4', paddingRight: '32px'}}>
-        <DemoLink default='mediumseagreen' hover='mediumspringgreen' color='white' width='100%'>
+        <DemoLink default='mediumseagreen' hover='mediumspringgreen' color='white' >
           <a href='https://demo.eduward.in'>Get Free Demo</a>
         </DemoLink>
-        <DemoLink hover='skyblue' color='white' width='100%'><Link to='/about'>Learn More</Link></DemoLink>
+        <DemoLink hover='skyblue' color='white' ><Link to='/about'>Learn More</Link></DemoLink>
         </CardColumn>
 
         <CardColumn style={{ paddingLeft: '32px'}}>
