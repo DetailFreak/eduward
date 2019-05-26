@@ -16,6 +16,7 @@ export const Card = styled.div`
 
 export const CardContent = styled.div`
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
   width: 100%;
   padding: 32px;
