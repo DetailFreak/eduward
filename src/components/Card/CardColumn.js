@@ -6,7 +6,7 @@ export default styled.div`
   color: gray;
   justify-content: space-around;
   flex-basis: 50%;
-  min-width:50%;
+  min-width:600px;
   box-sizing: border-box;
   flex-grow: 1;
   line-height: 1.5;
