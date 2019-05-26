@@ -5,7 +5,7 @@ export default styled.div`
   box-sizing: border-box;
   color: gray;
   justify-content: space-around;
-  min-width:400px;
+  min-width:100px;
   box-sizing: border-box;
   flex-grow: 1;
   line-height: 1.5;
