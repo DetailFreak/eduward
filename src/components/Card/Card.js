@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Card = styled.div`
   box-sizing: border-box;
-  width: ${props=> props.width ? props.width : '800px'};
+  max-width: ${props=> props.width ? props.width : '800px'};
   height: ${props=> props.height ? props.height : 'auto'};
   margin: auto;
   font-family :  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -16,6 +16,7 @@ export const Card = styled.div`
 
 export const CardContent = styled.div`
   display: flex;
+
   box-sizing: border-box;
   width: 100%;
   padding: 32px;
